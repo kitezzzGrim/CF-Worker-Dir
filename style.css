@@ -14,7 +14,7 @@ header {
 }
 
 #head {
-  background-image: linear-gradient(to top, #537895 0%, #09203f 100%);
+  background-image: url('https://cdn.jsdelivr.net/gh/No-Github/cf-worker-dir@0.1.3/oriental-tiles.png');
 }
 
 #nav .item {
