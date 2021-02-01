@@ -1,5 +1,5 @@
 /**
- *  自定义网站配置 
+ *  自定义网站配置
  */
 const config = {
   title: "ffffffff0x home",                 //write your website title
@@ -10,7 +10,7 @@ const config = {
   search_engine:[                     //choose search engine which you use
     {
       name:"fox",
-      template:"https://www.ffffffff0x.com/?q=$s"   
+      template:"https://www.ffffffff0x.com/?q=$s"
     },
     {
       name:"百 度",
@@ -179,7 +179,7 @@ function renderHTML(index,seller) {
   <body>
     ${index}
     ${config.selling_ads ? seller : ''}
-    
+
     <script>
       $('#sengine a').on('click', function (e) {
         $('#sengine a.active').toggleClass('active');
