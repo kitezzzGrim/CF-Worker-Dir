@@ -14,7 +14,7 @@ header {
 }
 
 #head {
-  background-image: url('https://cdn.jsdelivr.net/gh/No-Github/cf-worker-dir@0.1.4/oriental-tiles.png');
+  background-image: url('https://cdn.jsdelivr.net/gh/No-Github/cf-worker-dir@0.1.5/oriental-tiles.png');
 }
 
 #nav .item {
@@ -38,7 +38,7 @@ main {
   flex-basis: auto;
   flex-grow: 1;
   padding: 2rem 0;
-  background-image: url('https://cdn.jsdelivr.net/gh/No-Github/cf-worker-dir@0.1.4/repeated-square.png');
+  background-image: url('https://cdn.jsdelivr.net/gh/No-Github/cf-worker-dir@0.1.5/playstation-pattern.png');
   background-blend-mode: screen;
 }
 
