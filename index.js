@@ -1,16 +1,16 @@
 /**
- *  自定义网站配置
+ *  自定义网站配置 
  */
 const config = {
-  title: "ffffffff0x home",                 //write your website title
-  subtitle: "Cloudflare Workers Dir", //write your website subtitle
-  logo_icon: "sitemap",               //select your logo by semantic-ui icon (you can get more msg in:https://semantic-ui.com/elements/icon.html)
-  hitokoto: true,                     //use hitokoto or not
+  title: "ffffffff0x",                 //write your website title
+  subtitle: ":(){:|:&};:", //write your website subtitle
+  logo_icon: "globe",               //select your logo by semantic-ui icon (you can get more msg in:https://semantic-ui.com/elements/icon.html)
+  hitokoto: false,                     //use hitokoto or not
   search:true,                        //enable search function
   search_engine:[                     //choose search engine which you use
     {
       name:"fox",
-      template:"https://www.ffffffff0x.com/?q=$s"
+      template:"https://www.ffffffff0x.com/?q=$s"   
     },
     {
       name:"百 度",
@@ -28,54 +28,180 @@ const config = {
   selling_ads: false,                  //Selling your domain or not.(turning on may be helpful for selling this domain by showing some ads.)
   lists: [                            //Url list
     {
-      name:"技术",
-      icon:"code",
+      name:"红蓝攻防",
+      icon:"user secret",
       list:[
         {
-          url:"https://oschina.net/",
-          name:"开源中国",
-          desc:"程序员集散地"
+          url:"https://trello.com/",
+          name:"trello",
+          desc:"任务分工与信息共享"
         },
         {
-          url:"https://v2ex.com",
-          name:"V2EX",
-          desc:"程序员集散地"
+          url:"https://x.threatbook.cn/",
+          name:"threatbook",
+          desc:"威胁情报社区"
         },
         {
-          url:"https://csdn.net/",
-          name:"CSDN技术社区",
-          desc:"程序员集散地"
+          url:"https://www.vultr.com/",
+          name:"vultr",
+          desc:"The Infrastructure Cloud"
         },
         {
-          url:"https://github.com/",
-          name:"Github",
-          desc:"程序员集散地"
+          url:"https://www.ping.cn/",
+          name:"ping.cn",
+          desc:"ping检测"
+        },
+        {
+          url:"https://dash.cloudflare.com/",
+          name:"cloudflare",
+          desc:"Web Performance & Security"
+        },
+        {
+          url:"https://www.exploit-db.com/",
+          name:"exploit-db",
+          desc:"漏洞资源库"
+        },
+        {
+          url:"https://www.virustotal.com/gui/home/upload",
+          name:"virustotal",
+          desc:"Analyze files and URLs"
+        },
+        {
+          url:"https://i.hacking8.com/tiquan/",
+          name:"hacking8",
+          desc:"Windows提权辅助工具"
+        },
+        {
+          url:"https://gtfobins.github.io/",
+          name:"gtfobins",
+          desc:"Unix LOL"
+        },
+        {
+          url:"https://lolbas-project.github.io/",
+          name:"lolbas",
+          desc:"Windows LOL"
+        },
+        {
+          url:"https://gchq.github.io/CyberChef/",
+          name:"CyberChef",
+          desc:"The Cyber Swiss Army Knife"
+        },
+        {
+          url:"https://app.any.run/",
+          name:"any.run",
+          desc:"Malware Analysis Sandbox"
+        },
+        {
+          url:"https://fofa.so/",
+          name:"fofa",
+          desc:"网络空间安全搜索引擎"
+        },
+        {
+          url:"http://ceye.io/",
+          name:"ceye",
+          desc:"OOB Monitor"
+        },
+        {
+          url:"https://ifconfig.me/",
+          name:"ifconfig",
+          desc:"What Is My IP Address?"
+        },
+        {
+          url:"https://www.cmd5.com/",
+          name:"cmd5",
+          desc:"md5在线解密破解,md5解密加密"
         },
       ]
     },
     {
-      name:"学习",
-      icon:"graduation cap",
+      name:"技术学习",
+      icon:"chess knight",
       list:[
         {
-          url:"https://w3school.com.cn/",
-          name:"W3school在线教程",
-          desc:"程序员集散地"
+          url:"https://www.t00ls.net/",
+          name:"t00ls",
+          desc:"低调求发展 - 潜心习安全"
         },
         {
-          url:"https://runoob.com/",
-          name:"菜鸟教程",
-          desc:"程序员集散地"
+          url:"https://bbs.pediy.com/",
+          name:"pediy",
+          desc:"专注于PC、移动、智能设备安全研究及逆向工程"
         },
         {
-          url:"https://segmentfault.com/",
-          name:"思否社区",
-          desc:"程序员集散地"
+          url:"https://www.freebuf.com/",
+          name:"freebuf",
+          desc:"互联网安全新媒体"
         },
         {
-          url:"https://jianshu.com/",
-          name:"简书",
-          desc:"程序员集散地"
+          url:"https://www.anquanke.com/",
+          name:"anquanke",
+          desc:"漏洞信息、安全资讯、安全知识"
+        },
+        {
+          url:"https://github.com/",
+          name:"Github",
+          desc:"Where the world builds software"
+        },
+        {
+          url:"https://stackoverflow.com/",
+          name:"stackoverflow",
+          desc:"Where Developers Learn, Share, & Build Careers"
+        },
+        {
+          url:"https://twitter.com/home",
+          name:"twitter",
+          desc:"what's happening!?"
+        },
+        {
+          url:"https://www.bilibili.com/",
+          name:"bilibili",
+          desc:"二次元!二次元!二次元!二次元!二次元!二次元!二次元!"
+        },
+      ]
+    },
+    {
+      name:"项目",
+      icon:"code",
+      list:[
+        {
+          url:"https://github.com/ffffffff0x/f8x",
+          name:"f8x",
+          desc:"红队环境自动化部署工具"
+        },
+        {
+          url:"https://github.com/No-Github/1earn",
+          name:"1earn",
+          desc:"个人维护的安全知识框架"
+        },
+        {
+          url:"https://github.com/ffffffff0x/Pentest101",
+          name:"Pentest101",
+          desc:"每周(也许不)分享渗透测试的知识点"
+        },
+        {
+          url:"https://github.com/ffffffff0x/Dork-Admin",
+          name:"Dork-Admin",
+          desc:"盘点近年来的数据泄露、供应链污染事件"
+        },
+        {
+          url:"https://github.com/ffffffff0x/AboutSecurity",
+          name:"AboutSecurity",
+          desc:"用于渗透测试和红队基础架构构建的 payload 和字典库"
+        },
+        {
+          url:"https://github.com/ffffffff0x/Digital-Privacy",
+          name:"Digital-Privacy",
+          desc:"一个关于数字隐私搜集、保护、清理集一体的方案"
+        },
+        {
+          url:"https://github.com/ffffffff0x/BerylEnigma",
+          name:"BerylEnigma",
+          desc:"一个为渗透测试与CTF而制作的工具集"
+        },
+        {
+          url:"https://github.com/ffffffff0x/Dork-Admin",
+          name:"Dork-Admin",
+          desc:"盘点近年来的数据泄露、供应链污染事件"
         },
       ]
     }
@@ -99,13 +225,14 @@ addEventListener('fetch', event => {
 * @url 需要分析的Url地址
 */
 function getFavicon(url){
-  if(url.match(/https{0,1}:\/\//)){
+  if(url.match(/^.*github.*$/)){
     //return "https://ui-avatars.com/api/?bold=true&size=36&background=0D8ABC&color=fff&rounded=true&name=" + url.split('//')[1];
-    return "https://www.google.cn/s2/favicons?sz=64&domain_url=" + url;
-  }else{
+    return "https://github.com/fluidicon.png";
+  }
+  else{
     //return "https://ui-avatars.com/api/?bold=true&size=36&background=0D8ABC&color=fff&rounded=true&name=" + url;
-    return "https://www.google.cn/s2/favicons?sz=64&domain_url=http://" + url;
-  } 
+    return "https://www.google.cn/s2/favicons?sz=64&domain_url=" + url;
+  }
 }
 
 /** Render Functions
@@ -120,7 +247,7 @@ function renderIndex(){
 function renderHeader(){
   const item = (template,name) => el('a',['class="item"',`data-url="${template}"`],name);
 
-  var nav = el('div',['class="ui large secondary inverted menu"'],el('div',['class="item"'],el('p',['id="hitokoto"'],'hello f0x')))
+  var nav = el('div',['class="ui large secondary inverted menu"'],el('div',['class="item"'],el('p',['id="hitokoto"'],'')))
   var title = el('h1',['class="ui inverted header"'],el('i',[`class="${config.logo_icon} icon"`],"") + el('div',['class="content"'],config.title + el('div',['class="sub header"'],config.subtitle)));
   var menu = el('div',['id="sengine"','class="ui bottom attached tabular inverted secondary menu"'],el('div',['class="header item"'],'&nbsp;') + config.search_engine.map((link,key) =>{
     if(key == 0){
@@ -148,21 +275,6 @@ function renderMain() {
   return el('main',[],el('div',['class="ui container"'],main));
 }
 
-function renderSeller() {
-  const item = (type,content) => el('div',['class="item"'],el('i',[`class="${type} icon"`],"") + el('div',['class="content"'],content));
-  var title = el('h1',['class="ui yellow dividing header"'],el('i',['class="gem outline icon"'],"") + el('div',['class="content"'],config.sell_info.domain + ' 正在出售'));
-  var action = el('div',['class="actions"'],el('div',['class="ui basic cancel inverted button"'],el('i',['class="reply icon"'],"") + '返回'));
-
-  var contact = config.sell_info.contact.map((list) => {
-    return item(list.type,list.content);
-  }).join("");
-  var column = el('div',['class="column"'],el('h3',['class="ui center aligned icon inverted header"'],el('i',['class="circular envelope open outline grey inverted icon"'],"") + '联系我') + el('div',['class="ui relaxed celled large list"'],contact));
-  var price = el('div',['class="column"'],el('div',['class="ui large yellow statistic"'],el('div',['class="value"'],el('i',[`class="${config.sell_info.mon_unit} icon"`],"") + config.sell_info.price)));
-  var content = el('div',['class="content"'],el('div',['class="ui basic segment"'],el('div',['class="ui two column stackable center aligned grid"'],el('div',['class="ui inverted vertical divider"'],'感兴趣？') + el('div',['class="middle aligned row"'],price + column))));
-
-  return el('div',['id="seller"','class="ui basic modal"'],title + content + action);
-}
-
 function renderHTML(index,seller) {
   return `<!DOCTYPE html>
   <html lang="en">
@@ -172,14 +284,14 @@ function renderHTML(index,seller) {
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
       <title>${config.title} - ${config.subtitle}</title>
       <link href="https://cdn.jsdelivr.net/npm/semantic-ui-css@2.4.1/semantic.min.css" rel="stylesheet">
-      <link href="https://cdn.jsdelivr.net/gh/sleepwood/cf-worker-dir@0.1.1/style.css" rel="stylesheet">
+      <link href="https://cdn.jsdelivr.net/gh/No-Github/cf-worker-dir@0.1.5/style.css" rel="stylesheet">
       <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/semantic-ui-css@2.4.1/semantic.min.js"></script>
   </head>
   <body>
     ${index}
     ${config.selling_ads ? seller : ''}
-
+    
     <script>
       $('#sengine a').on('click', function (e) {
         $('#sengine a.active').toggleClass('active');
