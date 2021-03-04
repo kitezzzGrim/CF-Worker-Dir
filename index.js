@@ -9,8 +9,8 @@ const config = {
   search:true,                        //enable search function
   search_engine:[                     //choose search engine which you use
     {
-      name:"fox",
-      template:"https://www.ffffffff0x.com/?q=$s"   
+      name:"magi",
+      template:"https://magi.com/search?q=$s"   
     },
     {
       name:"百 度",
@@ -37,24 +37,39 @@ const config = {
           desc:"任务分工与信息共享"
         },
         {
-          url:"https://x.threatbook.cn/",
-          name:"threatbook",
-          desc:"威胁情报社区"
-        },
-        {
           url:"https://www.vultr.com/",
           name:"vultr",
           desc:"The Infrastructure Cloud"
         },
         {
-          url:"https://www.ping.cn/",
-          name:"ping.cn",
-          desc:"ping检测"
+          url:"https://dashboard.heroku.com/",
+          name:"heroku",
+          desc:"Cloud Application Platform"
         },
         {
           url:"https://dash.cloudflare.com/",
           name:"cloudflare",
           desc:"Web Performance & Security"
+        },
+        {
+          url:"https://www.freenom.com/",
+          name:"freenom",
+          desc:"A Name for Everyone"
+        },
+        {
+          url:"https://cn.aliyun.com/",
+          name:"aliyun",
+          desc:"傻逼阿里云"
+        },
+        {
+          url:"https://www.namesilo.com/",
+          name:"namesilo",
+          desc:"Cheap Domain Names"
+        },
+        {
+          url:"https://www.ping.cn/",
+          name:"ping.cn",
+          desc:"ping检测"
         },
         {
           url:"https://www.exploit-db.com/",
@@ -67,24 +82,14 @@ const config = {
           desc:"Analyze files and URLs"
         },
         {
+          url:"https://x.threatbook.cn/",
+          name:"threatbook",
+          desc:"威胁情报社区"
+        },
+        {
           url:"https://i.hacking8.com/tiquan/",
-          name:"hacking8",
+          name:"提权补丁查询",
           desc:"Windows提权辅助工具"
-        },
-        {
-          url:"https://gtfobins.github.io/",
-          name:"gtfobins",
-          desc:"Unix LOL"
-        },
-        {
-          url:"https://lolbas-project.github.io/",
-          name:"lolbas",
-          desc:"Windows LOL"
-        },
-        {
-          url:"https://gchq.github.io/CyberChef/",
-          name:"CyberChef",
-          desc:"The Cyber Swiss Army Knife"
         },
         {
           url:"https://app.any.run/",
@@ -109,7 +114,43 @@ const config = {
         {
           url:"https://www.cmd5.com/",
           name:"cmd5",
-          desc:"md5在线解密破解,md5解密加密"
+          desc:"md5在线解密破解"
+        },
+        {
+          url:"https://dev.bangcle.com/",
+          name:"梆梆安全",
+          desc:"APP安全加固|盗版监测"
+        },
+        {
+          url:"https://github.com/ffffffff0x/f8x",
+          name:"f8x",
+          desc:"红队环境自动化部署工具"
+        },
+
+        {
+          url:"https://github.com/ffffffff0x/AboutSecurity",
+          name:"AboutSecurity",
+          desc:"红队 payload 和字典库"
+        },
+        {
+          url:"https://github.com/ffffffff0x/BerylEnigma",
+          name:"BerylEnigma",
+          desc:"为渗透与CTF而制作的工具集"
+        },
+        {
+          url:"https://gtfobins.github.io/",
+          name:"gtfobins",
+          desc:"Unix LOL"
+        },
+        {
+          url:"https://lolbas-project.github.io/",
+          name:"lolbas",
+          desc:"Windows LOL"
+        },
+        {
+          url:"https://gchq.github.io/CyberChef/",
+          name:"CyberChef",
+          desc:"The Cyber Swiss Army Knife"
         },
       ]
     },
@@ -125,7 +166,7 @@ const config = {
         {
           url:"https://bbs.pediy.com/",
           name:"pediy",
-          desc:"专注于PC、移动、智能设备安全研究及逆向工程"
+          desc:"移动安全研究及逆向工程"
         },
         {
           url:"https://www.freebuf.com/",
@@ -135,17 +176,17 @@ const config = {
         {
           url:"https://www.anquanke.com/",
           name:"anquanke",
-          desc:"漏洞信息、安全资讯、安全知识"
+          desc:"漏洞信息,安全资讯、知识"
         },
         {
           url:"https://github.com/",
           name:"Github",
-          desc:"Where the world builds software"
+          desc:"shape the future of software"
         },
         {
           url:"https://stackoverflow.com/",
           name:"stackoverflow",
-          desc:"Where Developers Learn, Share, & Build Careers"
+          desc:"programming ​knowledge"
         },
         {
           url:"https://twitter.com/home",
@@ -155,18 +196,47 @@ const config = {
         {
           url:"https://www.bilibili.com/",
           name:"bilibili",
-          desc:"二次元!二次元!二次元!二次元!二次元!二次元!二次元!"
+          desc:"二次元!二次元!二次元!"
         },
-      ]
-    },
-    {
-      name:"项目",
-      icon:"code",
-      list:[
         {
-          url:"https://github.com/ffffffff0x/f8x",
-          name:"f8x",
-          desc:"红队环境自动化部署工具"
+          url:"https://i.hacking8.com/forums/",
+          name:"hacking8",
+          desc:"安全信息流"
+        },
+        {
+          url:"https://www.hackerpom.com/feed",
+          name:"hackerpom",
+          desc:"Cyber Threat Intelligence"
+        },
+        {
+          url:"http://www.ruanyifeng.com/blog/",
+          name:"ruanyifeng",
+          desc:"阮一峰的网络日志"
+        },
+        {
+          url:"https://paper.seebug.org/",
+          name:"seebug",
+          desc:"安全技术精粹"
+        },
+        {
+          url:"https://xz.aliyun.com/",
+          name:"先知社区",
+          desc:"先知安全技术社区"
+        },
+        {
+          url:"https://www.ctfhub.com/#/index",
+          name:"ctfhub",
+          desc:"开箱即用的CTF学习解决方案"
+        },
+        {
+          url:"https://buuoj.cn/",
+          name:"buuoj",
+          desc:"CTF平台"
+        },
+        {
+          url:"https://ctftime.org/",
+          name:"ctftime",
+          desc:"All about CTF"
         },
         {
           url:"https://github.com/No-Github/1earn",
@@ -176,32 +246,43 @@ const config = {
         {
           url:"https://github.com/ffffffff0x/Pentest101",
           name:"Pentest101",
-          desc:"每周(也许不)分享渗透测试的知识点"
+          desc:"每周分享渗透知识点"
+        },
+      ]
+    },
+    {
+      name:"辅助项目",
+      icon:"star",
+      list:[
+        {
+          url:"https://cdn.ffffffff0x.com/",
+          name:"cdn加速",
+          desc:"通过CDN加速下载"
         },
         {
-          url:"https://github.com/ffffffff0x/Dork-Admin",
-          name:"Dork-Admin",
-          desc:"盘点近年来的数据泄露、供应链污染事件"
+          url:"https://github.ffffffff0x.com/",
+          name:"github加速",
+          desc:"加速github下载"
         },
         {
-          url:"https://github.com/ffffffff0x/AboutSecurity",
-          name:"AboutSecurity",
-          desc:"用于渗透测试和红队基础架构构建的 payload 和字典库"
+          url:"https://ln.ffffffff0x.com/",
+          name:"url短链接",
+          desc:"生成URL短链"
         },
         {
-          url:"https://github.com/ffffffff0x/Digital-Privacy",
-          name:"Digital-Privacy",
-          desc:"一个关于数字隐私搜集、保护、清理集一体的方案"
+          url:"https://proxy.ffffffff0x.com/",
+          name:"proxy代理",
+          desc:"jsproxy网页代理"
         },
         {
-          url:"https://github.com/ffffffff0x/BerylEnigma",
-          name:"BerylEnigma",
-          desc:"一个为渗透测试与CTF而制作的工具集"
+          url:"https://status.ffffffff0x.com/",
+          name:"status监控",
+          desc:"服务运行状态监控"
         },
         {
-          url:"https://github.com/ffffffff0x/Dork-Admin",
-          name:"Dork-Admin",
-          desc:"盘点近年来的数据泄露、供应链污染事件"
+          url:"https://ffffffff0x.com/",
+          name:"ffffffff0x",
+          desc:"关于我们"
         },
       ]
     }
@@ -226,11 +307,12 @@ addEventListener('fetch', event => {
 */
 function getFavicon(url){
   if(url.match(/^.*github.*$/)){
-    //return "https://ui-avatars.com/api/?bold=true&size=36&background=0D8ABC&color=fff&rounded=true&name=" + url.split('//')[1];
     return "https://github.com/fluidicon.png";
   }
+  else if(url.match(/^.*bangcle.*$/)){
+    return "https://dev.bangcle.com/assets/imgs/favicon.ico";
+  }
   else{
-    //return "https://ui-avatars.com/api/?bold=true&size=36&background=0D8ABC&color=fff&rounded=true&name=" + url;
     return "https://www.google.cn/s2/favicons?sz=64&domain_url=" + url;
   }
 }
@@ -241,7 +323,7 @@ function getFavicon(url){
 
 function renderIndex(){
   const footer = el('footer',[],el('div',['class="footer"'],'Powered by' + el('a',['class="ui label"','href="https://github.com/sleepwood/cf-worker-dir"','target="_blank"'],el('i',['class="github icon"'],"") + 'Cf-Worker-Dir') + ' &copy; Base on ' + el('a',['class="ui label"'],el('i',['class="balance scale icon"'],"") + 'MIT License')));
-  return renderHeader() + renderMain() + footer;
+  return renderHeader() + renderMain();
 }
 
 function renderHeader(){
@@ -256,7 +338,7 @@ function renderHeader(){
       return item(link.template,link.name);
     }
   }).join(""))
-  var input = el('div',['class="ui left corner labeled right icon fluid large input"'],el('div',['class="ui left corner label"'],el('img',['id="search-fav"','class="left floated avatar ui image"','src="https://www.ffffffff0x.com/favicon.ico"'],"")) + el('input',['id="searchinput"','type="search"','placeholder="search for future"','autocomplete="off"'],"") + el('i',['class="inverted circular search link icon"'],""));
+  var input = el('div',['class="ui left corner labeled right icon fluid large input"'],el('div',['class="ui left corner label"'],el('img',['id="search-fav"','class="left floated avatar ui image"','src="https://magi.com/assets/icons/favicon.ico"'],"")) + el('input',['id="searchinput"','type="search"','placeholder="search for future"','autocomplete="off"'],"") + el('i',['class="inverted circular search link icon"'],""));
   return el('header',[],el('div',['id="head"','class="ui inverted vertical masthead center aligned segment"'],(config.hitokoto ? el('div',['id="nav"','class="ui container"'],nav) : "") + el('div',['id="title"','class="ui text container"'],title + (config.search ? input + menu :"") + `${config.selling_ads ? '<div><a id="menubtn" class="red ui icon inverted button"><i class="heart icon"></i> 喜欢此域名 </a></div>' : ''}`)))
 }
 
@@ -283,15 +365,15 @@ function renderHTML(index,seller) {
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
       <title>${config.title} - ${config.subtitle}</title>
-      <link href="https://cdn.jsdelivr.net/npm/semantic-ui-css@2.4.1/semantic.min.css" rel="stylesheet">
-      <link href="https://cdn.jsdelivr.net/gh/No-Github/cf-worker-dir@0.1.5/style.css" rel="stylesheet">
+      <link href="https://cdn.jsdelivr.net/gh/No-Github/Semantic-UI@2.4.4/dist/semantic.min.css" rel="stylesheet">
+      <link href="https://cdn.jsdelivr.net/gh/No-Github/cf-worker-dir@0.2.0/style.css" rel="stylesheet">
       <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/semantic-ui-css@2.4.1/semantic.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/gh/No-Github/Semantic-UI@2.4.4/dist/semantic.min.css"></script>
   </head>
   <body>
     ${index}
     ${config.selling_ads ? seller : ''}
-    
+  
     <script>
       $('#sengine a').on('click', function (e) {
         $('#sengine a.active').toggleClass('active');
