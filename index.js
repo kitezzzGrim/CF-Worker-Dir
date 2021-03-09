@@ -1,7 +1,7 @@
 /**
  *  自定义网站配置 
  */
-const config = {
+ const config = {
   title: "ffffffff0x",                 //write your website title
   subtitle: ":(){:|:&};:", //write your website subtitle
   logo_icon: "globe",               //select your logo by semantic-ui icon (you can get more msg in:https://semantic-ui.com/elements/icon.html)
