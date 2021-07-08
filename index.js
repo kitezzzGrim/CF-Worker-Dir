@@ -1,5 +1,5 @@
 /**
- *  自定义网站配置 
+ *  自定义网站配置
  */
  const config = {
   title: "ffffffff0x",                 //write your website title
@@ -10,7 +10,7 @@
   search_engine:[                     //choose search engine which you use
     {
       name:"magi",
-      template:"https://magi.com/search?q=$s"   
+      template:"https://magi.com/search?q=$s"
     },
     {
       name:"百 度",
@@ -107,9 +107,9 @@
           desc:"OOB Monitor"
         },
         {
-          url:"https://ifconfig.me/",
-          name:"ifconfig",
-          desc:"What Is My IP Address?"
+          url:"http://dnslog.cn/",
+          name:"dnslog",
+          desc:"dnslog Tools"
         },
         {
           url:"https://www.cmd5.com/",
@@ -284,6 +284,21 @@
           name:"ffffffff0x",
           desc:"关于我们"
         },
+        {
+          url:"https://tasklist.ffffffff0x.com/",
+          name:"tasklist",
+          desc:"运行查询"
+        },
+        {
+          url:"https://f8x.io/",
+          name:"f8x",
+          desc:"f8x Workers"
+        },
+        {
+          url:"https://highlight.ffffffff0x.com/",
+          name:"highlight",
+          desc:"代码高亮"
+        },
       ]
     }
   ]
@@ -353,7 +368,7 @@ function renderMain() {
 
     return el('div',['class="ui basic segment"'],divider + content);
   }).join("");
-  
+
   return el('main',[],el('div',['class="ui container"'],main));
 }
 
@@ -365,6 +380,7 @@ function renderHTML(index,seller) {
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
       <title>${config.title} - ${config.subtitle}</title>
+      <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/No-Github/Archive2@1.0.4/html/images/ffffffff0x-64.ico" type="image/x-icon">
       <link href="https://cdn.jsdelivr.net/gh/No-Github/Semantic-UI@2.4.4/dist/semantic.min.css" rel="stylesheet">
       <link href="https://cdn.jsdelivr.net/gh/No-Github/cf-worker-dir@0.2.0/style.css" rel="stylesheet">
       <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
@@ -373,7 +389,7 @@ function renderHTML(index,seller) {
   <body>
     ${index}
     ${config.selling_ads ? seller : ''}
-  
+
     <script>
       $('#sengine a').on('click', function (e) {
         $('#sengine a.active').toggleClass('active');
