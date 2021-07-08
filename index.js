@@ -59,7 +59,7 @@
         {
           url:"https://cn.aliyun.com/",
           name:"aliyun",
-          desc:"傻逼阿里云"
+          desc:"阿里云"
         },
         {
           url:"https://www.namesilo.com/",
