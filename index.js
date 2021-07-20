@@ -299,6 +299,11 @@
           name:"highlight",
           desc:"代码高亮"
         },
+        {
+          url:"https://ctf.ffffffff0x.com/",
+          name:"ctf",
+          desc:"ctf 游戏"
+        },
       ]
     }
   ]
