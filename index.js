@@ -255,6 +255,11 @@
       icon:"star",
       list:[
         {
+          url:"https://wiki.ffffffff0x.com/",
+          name:"wiki",
+          desc:"安全知识库"
+        },
+        {
           url:"https://cdn.ffffffff0x.com/",
           name:"cdn加速",
           desc:"通过CDN加速下载"
