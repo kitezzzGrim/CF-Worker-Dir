@@ -300,14 +300,19 @@
           desc:"f8x Workers"
         },
         {
+          url:"https://ctf.ffffffff0x.com/",
+          name:"ctf",
+          desc:"ctf 游戏"
+        },
+        {
           url:"https://highlight.ffffffff0x.com/",
           name:"highlight",
           desc:"代码高亮"
         },
         {
-          url:"https://ctf.ffffffff0x.com/",
-          name:"ctf",
-          desc:"ctf 游戏"
+          url:"https://chart.ffffffff0x.com/",
+          name:"chart",
+          desc:"图表解析服务"
         },
       ]
     }
