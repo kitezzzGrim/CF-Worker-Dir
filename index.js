@@ -314,6 +314,11 @@
           name:"chart",
           desc:"图表解析服务"
         },
+        {
+          url:"https://markdown.ffffffff0x.com/",
+          name:"markdown",
+          desc:"markdown编辑器"
+        },
       ]
     }
   ]
