@@ -239,9 +239,9 @@
           desc:"All about CTF"
         },
         {
-          url:"https://github.com/No-Github/1earn",
+          url:"https://github.com/ffffffff0x/1earn",
           name:"1earn",
-          desc:"个人维护的安全知识框架"
+          desc:"安全知识框架"
         },
         {
           url:"https://github.com/ffffffff0x/Pentest101",
