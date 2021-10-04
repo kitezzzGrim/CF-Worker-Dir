@@ -231,7 +231,7 @@
         {
           url:"https://buuoj.cn/",
           name:"buuoj",
-          desc:"CTF平台"
+          desc:"CTF 学习平台"
         },
         {
           url:"https://ctftime.org/",
@@ -239,14 +239,14 @@
           desc:"All about CTF"
         },
         {
-          url:"https://github.com/ffffffff0x/1earn",
-          name:"1earn",
-          desc:"安全知识框架"
+          url:"https://adworld.xctf.org.cn/",
+          name:"攻防世界",
+          desc:"CTF 学习平台"
         },
         {
-          url:"https://github.com/ffffffff0x/Pentest101",
-          name:"Pentest101",
-          desc:"每周分享渗透知识点"
+          url:"https://www.hetianlab.com/pages/CTFLaboratory.jsp",
+          name:"hetianlab",
+          desc:"CTF 从入门到实践"
         },
       ]
     },
