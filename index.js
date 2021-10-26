@@ -135,7 +135,7 @@
         {
           url:"https://github.com/ffffffff0x/BerylEnigma",
           name:"BerylEnigma",
-          desc:"为渗透与CTF而制作的工具集"
+          desc:"加解密工具集"
         },
         {
           url:"https://gtfobins.github.io/",
@@ -226,7 +226,7 @@
         {
           url:"https://www.ctfhub.com/#/index",
           name:"ctfhub",
-          desc:"开箱即用的CTF学习解决方案"
+          desc:"CTF学习解决方案"
         },
         {
           url:"https://buuoj.cn/",
@@ -248,6 +248,26 @@
           name:"hetianlab",
           desc:"CTF 从入门到实践"
         },
+        {
+          url:"https://cryptohack.org/",
+          name:"cryptohack",
+          desc:"learning cryptography"
+        },
+        {
+          url:"https://ctf-wiki.org/",
+          name:"CTF Wiki",
+          desc:"CTF 进阶知识"
+        },
+        {
+          url:"https://www.runoob.com/",
+          name:"runoob",
+          desc:"菜鸟教程"
+        },
+        {
+          url:"https://leetcode.com/playground/new/empty",
+          name:"leetcode",
+          desc:"Playground"
+        },
       ]
     },
     {
@@ -268,16 +288,6 @@
           url:"https://github.ffffffff0x.com/",
           name:"github加速",
           desc:"加速github下载"
-        },
-        {
-          url:"https://ln.ffffffff0x.com/",
-          name:"url短链接",
-          desc:"生成URL短链"
-        },
-        {
-          url:"https://proxy.ffffffff0x.com/",
-          name:"proxy代理",
-          desc:"jsproxy网页代理"
         },
         {
           url:"https://status.ffffffff0x.com/",
