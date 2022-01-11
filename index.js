@@ -102,8 +102,8 @@
           desc:"网络空间安全搜索引擎"
         },
         {
-          url:"http://ceye.io/",
-          name:"ceye",
+          url:"https://app.interactsh.com/#/",
+          name:"interactsh",
           desc:"OOB Monitor"
         },
         {
@@ -264,9 +264,19 @@
           desc:"菜鸟教程"
         },
         {
+          url:"https://www.w3schools.com/",
+          name:"w3schools",
+          desc:"Online Web Tutorials"
+        },
+        {
           url:"https://leetcode.com/playground/new/empty",
           name:"leetcode",
           desc:"Playground"
+        },
+        {
+          url:"https://colab.research.google.com/",
+          name:"Colab",
+          desc:"Colaboratory"
         },
       ]
     },
@@ -275,8 +285,8 @@
       icon:"star",
       list:[
         {
-          url:"https://wiki.ffffffff0x.com/",
-          name:"wiki",
+          url:"https://github.com/ffffffff0x/1earn",
+          name:"1earn wiki",
           desc:"安全知识库"
         },
         {
