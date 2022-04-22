@@ -97,7 +97,7 @@
           desc:"Malware Analysis Sandbox"
         },
         {
-          url:"https://fofa.so/",
+          url:"https://fofa.info/",
           name:"fofa",
           desc:"网络空间安全搜索引擎"
         },
@@ -204,9 +204,9 @@
           desc:"安全信息流"
         },
         {
-          url:"https://www.hackerpom.com/feed",
-          name:"hackerpom",
-          desc:"Cyber Threat Intelligence"
+          url:"https://tttang.com/",
+          name:"tttang",
+          desc:"跳跳糖安全技术社区"
         },
         {
           url:"http://www.ruanyifeng.com/blog/",
@@ -328,11 +328,6 @@
           url:"https://highlight.ffffffff0x.com/",
           name:"highlight",
           desc:"代码高亮"
-        },
-        {
-          url:"https://chart.ffffffff0x.com/",
-          name:"chart",
-          desc:"图表解析服务"
         },
         {
           url:"https://markdown.ffffffff0x.com/",
