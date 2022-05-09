@@ -4,7 +4,7 @@
  const config = {
   title: "kitezzz",                 //write your website title
   subtitle: "风筝-导航页", //write your website subtitle
-  logo_icon: "sitemap",               //select your logo by semantic-ui icon (you can get more msg in:https://semantic-ui.com/elements/icon.html)
+  logo_icon: "fly",               //select your logo by semantic-ui icon (you can get more msg in:https://semantic-ui.com/elements/icon.html)
   hitokoto: true,                     //use hitokoto or not
   search:true,                        //enable search function
   search_engine:[                     //choose search engine which you use
@@ -33,7 +33,7 @@
   lists: [                            //Url list
     {
       name:"技术社区",
-      icon:"code",
+      icon:"graduation cap",
       list:[
         {
           url:"https://i.hacking8.com/forums/",
@@ -98,8 +98,74 @@
       ]
     },
     {
+      name:"红蓝攻防",
+      icon:"user secret",
+      list:[
+        {
+          url:"https://trello.com/",
+          name:"trello",
+          desc:"任务分工与信息共享"
+        },
+        {
+          url:"https://www.vultr.com/",
+          name:"vultr",
+          desc:"The Infrastructure Cloud"
+        },
+        {
+          url:"https://dash.cloudflare.com/",
+          name:"cloudflare",
+          desc:"Web Performance & Security"
+        },
+        {
+          url:"https://cn.aliyun.com/",
+          name:"aliyun",
+          desc:"阿里云"
+        },
+        {
+          url:"https://cloud.tencent.com/",
+          name:"tencent",
+          desc:"腾讯云"
+        },
+        {
+          url:"https://www.namesilo.com/",
+          name:"namesilo",
+          desc:"Cheap Domain Names"
+        },
+        {
+          url:"https://www.exploit-db.com/",
+          name:"exploit-db",
+          desc:"漏洞资源库"
+        },
+        {
+          url:"https://i.hacking8.com/tiquan/",
+          name:"提权补丁查询",
+          desc:"Windows提权辅助工具"
+        },
+        {
+          url:"https://fofa.info/",
+          name:"fofa",
+          desc:"网络空间安全搜索引擎"
+        },
+        {
+          url:"http://dnslog.cn/",
+          name:"dnslog",
+          desc:"dnslog Tools"
+        },
+        {
+          url:"https://www.cmd5.com/",
+          name:"cmd5",
+          desc:"md5在线解密破解"
+        },
+        {
+          url:"https://www.somd5.com/",
+          name:"somd5",
+          desc:"输入让你无语的MD5"
+        },
+      ]
+    },
+    {
       name:"安全知识库",
-      icon:"graduation cap",
+      icon:"book",
       list:[
         {
           url:"https://wiki.kitezzz.com/readme-1",
@@ -110,6 +176,11 @@
           url:"https://github.com/ffffffff0x/1earn",
           name:"1earn Wiki",
           desc:"团队1earn安全知识库"
+        },
+        {
+          url:"https://github.com/ffffffff0x/AboutSecurity",
+          name:"AboutSecurity",
+          desc:"红队 payload 和字典库"
         },
         {
           url:"https://wiki.teamssix.com/",
@@ -203,10 +274,10 @@ function renderHTML(index,seller) {
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
       <title>${config.title} - ${config.subtitle}</title>
-      <link href="https://cdn.jsdelivr.net/gh/No-Github/Semantic-UI@2.4.4/dist/semantic.min.css" rel="stylesheet">
+      <link href="https://cdn.jsdelivr.net/gh/kitezzzgrim/Semantic-UI@2.4.4/dist/semantic.min.css" rel="stylesheet">
       <link href="https://cdn.jsdelivr.net/gh/kitezzzgrim/cf-worker-dir@0.2.3/style.css" rel="stylesheet">
       <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/gh/No-Github/Semantic-UI@2.4.4/dist/semantic.min.css"></script>
+      <script src="https://cdn.jsdelivr.net/gh/kitezzzgrim/Semantic-UI@2.4.4/dist/semantic.min.css"></script>
   </head>
   <body>
     ${index}
