@@ -1,17 +1,13 @@
 /**
- *  自定义网站配置
+ *  自定义网站配置 
  */
  const config = {
-  title: "ffffffff0x",                 //write your website title
-  subtitle: ":(){:|:&};:", //write your website subtitle
-  logo_icon: "globe",               //select your logo by semantic-ui icon (you can get more msg in:https://semantic-ui.com/elements/icon.html)
-  hitokoto: false,                     //use hitokoto or not
+  title: "kitezzz",                 //write your website title
+  subtitle: "风筝-导航页", //write your website subtitle
+  logo_icon: "sitemap",               //select your logo by semantic-ui icon (you can get more msg in:https://semantic-ui.com/elements/icon.html)
+  hitokoto: true,                     //use hitokoto or not
   search:true,                        //enable search function
   search_engine:[                     //choose search engine which you use
-    {
-      name:"magi",
-      template:"https://magi.com/search?q=$s"
-    },
     {
       name:"百 度",
       template:"https://www.baidu.com/s?wd=$s"
@@ -23,200 +19,36 @@
     {
       name:"必 应",
       template:"https://www.bing.com/search?q=$s"
+    },
+    {
+      name:"搜 狗",
+      template:"https://www.sogou.com/web?query=$s"
+    },
+    {
+      name:"红 客",
+      template:"https://www.hong.ke/search?query=$s&page=1"
     }
   ],
   selling_ads: false,                  //Selling your domain or not.(turning on may be helpful for selling this domain by showing some ads.)
   lists: [                            //Url list
     {
-      name:"红蓝攻防",
-      icon:"user secret",
+      name:"技术社区",
+      icon:"code",
       list:[
-        {
-          url:"https://trello.com/",
-          name:"trello",
-          desc:"任务分工与信息共享"
-        },
-        {
-          url:"https://www.vultr.com/",
-          name:"vultr",
-          desc:"The Infrastructure Cloud"
-        },
-        {
-          url:"https://dashboard.heroku.com/",
-          name:"heroku",
-          desc:"Cloud Application Platform"
-        },
-        {
-          url:"https://dash.cloudflare.com/",
-          name:"cloudflare",
-          desc:"Web Performance & Security"
-        },
-        {
-          url:"https://www.freenom.com/",
-          name:"freenom",
-          desc:"A Name for Everyone"
-        },
-        {
-          url:"https://cn.aliyun.com/",
-          name:"aliyun",
-          desc:"阿里云"
-        },
-        {
-          url:"https://www.namesilo.com/",
-          name:"namesilo",
-          desc:"Cheap Domain Names"
-        },
-        {
-          url:"https://www.ping.cn/",
-          name:"ping.cn",
-          desc:"ping检测"
-        },
-        {
-          url:"https://www.exploit-db.com/",
-          name:"exploit-db",
-          desc:"漏洞资源库"
-        },
-        {
-          url:"https://www.virustotal.com/gui/home/upload",
-          name:"virustotal",
-          desc:"Analyze files and URLs"
-        },
-        {
-          url:"https://x.threatbook.cn/",
-          name:"threatbook",
-          desc:"威胁情报社区"
-        },
-        {
-          url:"https://i.hacking8.com/tiquan/",
-          name:"提权补丁查询",
-          desc:"Windows提权辅助工具"
-        },
-        {
-          url:"https://app.any.run/",
-          name:"any.run",
-          desc:"Malware Analysis Sandbox"
-        },
-        {
-          url:"https://fofa.info/",
-          name:"fofa",
-          desc:"网络空间安全搜索引擎"
-        },
-        {
-          url:"https://app.interactsh.com/#/",
-          name:"interactsh",
-          desc:"OOB Monitor"
-        },
-        {
-          url:"http://dnslog.cn/",
-          name:"dnslog",
-          desc:"dnslog Tools"
-        },
-        {
-          url:"https://www.cmd5.com/",
-          name:"cmd5",
-          desc:"md5在线解密破解"
-        },
-        {
-          url:"https://dev.bangcle.com/",
-          name:"梆梆安全",
-          desc:"APP安全加固|盗版监测"
-        },
-        {
-          url:"https://github.com/ffffffff0x/f8x",
-          name:"f8x",
-          desc:"红队环境自动化部署工具"
-        },
-
-        {
-          url:"https://github.com/ffffffff0x/AboutSecurity",
-          name:"AboutSecurity",
-          desc:"红队 payload 和字典库"
-        },
-        {
-          url:"https://github.com/ffffffff0x/BerylEnigma",
-          name:"BerylEnigma",
-          desc:"加解密工具集"
-        },
-        {
-          url:"https://gtfobins.github.io/",
-          name:"gtfobins",
-          desc:"Unix LOL"
-        },
-        {
-          url:"https://lolbas-project.github.io/",
-          name:"lolbas",
-          desc:"Windows LOL"
-        },
-        {
-          url:"https://gchq.github.io/CyberChef/",
-          name:"CyberChef",
-          desc:"The Cyber Swiss Army Knife"
-        },
-      ]
-    },
-    {
-      name:"技术学习",
-      icon:"chess knight",
-      list:[
-        {
-          url:"https://www.t00ls.net/",
-          name:"t00ls",
-          desc:"低调求发展 - 潜心习安全"
-        },
-        {
-          url:"https://bbs.pediy.com/",
-          name:"pediy",
-          desc:"移动安全研究及逆向工程"
-        },
-        {
-          url:"https://www.freebuf.com/",
-          name:"freebuf",
-          desc:"互联网安全新媒体"
-        },
-        {
-          url:"https://www.anquanke.com/",
-          name:"anquanke",
-          desc:"漏洞信息,安全资讯、知识"
-        },
-        {
-          url:"https://github.com/",
-          name:"Github",
-          desc:"shape the future of software"
-        },
-        {
-          url:"https://stackoverflow.com/",
-          name:"stackoverflow",
-          desc:"programming ​knowledge"
-        },
-        {
-          url:"https://twitter.com/home",
-          name:"twitter",
-          desc:"what's happening!?"
-        },
-        {
-          url:"https://www.bilibili.com/",
-          name:"bilibili",
-          desc:"二次元!二次元!二次元!"
-        },
         {
           url:"https://i.hacking8.com/forums/",
-          name:"hacking8",
+          name:"Hacking8",
           desc:"安全信息流"
         },
         {
-          url:"https://tttang.com/",
-          name:"tttang",
-          desc:"跳跳糖安全技术社区"
+          url:"https://wx.zsxq.com/",
+          name:"知识星球",
+          desc:"连接一千位铁杆粉丝,知识变现,小团队共享"
         },
         {
-          url:"http://www.ruanyifeng.com/blog/",
-          name:"ruanyifeng",
-          desc:"阮一峰的网络日志"
-        },
-        {
-          url:"https://paper.seebug.org/",
-          name:"seebug",
-          desc:"安全技术精粹"
+          url:"https://www.t00ls.cc/",
+          name:"T00LS",
+          desc:"低调求发展-潜心习安全"
         },
         {
           url:"https://xz.aliyun.com/",
@@ -224,125 +56,76 @@
           desc:"先知安全技术社区"
         },
         {
-          url:"https://www.ctfhub.com/#/index",
-          name:"ctfhub",
-          desc:"CTF学习解决方案"
+          url:"https://zone.huoxian.cn/?sort=newest",
+          name:"火线Zone",
+          desc:"云安全社区"
         },
         {
-          url:"https://buuoj.cn/",
-          name:"buuoj",
-          desc:"CTF 学习平台"
+          url:"https://tttang.com/",
+          name:"跳跳糖",
+          desc:"跳跳糖安全技术社区"
         },
         {
-          url:"https://ctftime.org/",
-          name:"ctftime",
-          desc:"All about CTF"
+          url:"https://forum.butian.net/",
+          name:"奇安信攻防社区",
+          desc:"实战攻防技术"
         },
         {
-          url:"https://adworld.xctf.org.cn/",
-          name:"攻防世界",
-          desc:"CTF 学习平台"
+          url:"https://paper.seebug.org/",
+          name:"Seebug",
+          desc:"Paper - 安全技术精粹"
         },
         {
-          url:"https://www.hetianlab.com/pages/CTFLaboratory.jsp",
-          name:"hetianlab",
-          desc:"CTF 从入门到实践"
+          url:"https://wechat.doonsec.com/",
+          name:"洞见微信聚合",
+          desc:"安全圈微信搜索"
         },
         {
-          url:"https://cryptohack.org/",
-          name:"cryptohack",
-          desc:"learning cryptography"
+          url:"https://github.com/",
+          name:"Github",
+          desc:"where the world builds software"
         },
         {
-          url:"https://ctf-wiki.org/",
-          name:"CTF Wiki",
-          desc:"CTF 进阶知识"
+          url:"https://www.freebuf.com/articles/web",
+          name:"Freebuf",
+          desc:"互联网安全新媒体"
         },
         {
-          url:"https://www.runoob.com/",
-          name:"runoob",
-          desc:"菜鸟教程"
-        },
-        {
-          url:"https://www.w3schools.com/",
-          name:"w3schools",
-          desc:"Online Web Tutorials"
-        },
-        {
-          url:"https://leetcode.com/playground/new/empty",
-          name:"leetcode",
-          desc:"Playground"
-        },
-        {
-          url:"https://colab.research.google.com/",
-          name:"Colab",
-          desc:"Colaboratory"
+          url:"https://www.anquanke.com/",
+          name:"安全客",
+          desc:"有思想的安全新媒体"
         },
       ]
     },
     {
-      name:"辅助项目",
-      icon:"star",
+      name:"安全知识库",
+      icon:"graduation cap",
       list:[
         {
+          url:"https://wiki.kitezzz.com/readme-1",
+          name:"Kite Wiki",
+          desc:"风筝个人文库"
+        },
+        {
           url:"https://github.com/ffffffff0x/1earn",
-          name:"1earn wiki",
-          desc:"安全知识库"
+          name:"1earn Wiki",
+          desc:"团队1earn安全知识库"
         },
         {
-          url:"https://cdn.ffffffff0x.com/",
-          name:"cdn加速",
-          desc:"通过CDN加速下载"
+          url:"https://wiki.teamssix.com/",
+          name:"T Wiki",
+          desc:"面向云安全方向的知识文库"
         },
         {
-          url:"https://github.ffffffff0x.com/",
-          name:"github加速",
-          desc:"加速github下载"
-        },
-        {
-          url:"https://status.ffffffff0x.com/",
-          name:"status监控",
-          desc:"服务运行状态监控"
-        },
-        {
-          url:"https://ffffffff0x.com/",
-          name:"ffffffff0x",
-          desc:"关于我们"
-        },
-        {
-          url:"https://tasklist.ffffffff0x.com/",
-          name:"tasklist",
-          desc:"运行查询"
-        },
-        {
-          url:"https://f8x.io/",
-          name:"f8x",
-          desc:"f8x Workers"
-        },
-        {
-          url:"https://ctf.ffffffff0x.com/",
-          name:"ctf",
-          desc:"ctf 游戏"
-        },
-        {
-          url:"https://highlight.ffffffff0x.com/",
-          name:"highlight",
-          desc:"代码高亮"
-        },
-        {
-          url:"https://markdown.ffffffff0x.com/",
-          name:"markdown",
-          desc:"markdown编辑器"
-        },
-        {
-          url:"https://lunch.ffffffff0x.com/",
-          name:"中午吃什么",
-          desc:"中午吃什么，吃什么?"
+          url:"http://wiki.peiqi.tech/",
+          name:"PeiQi文库",
+          desc:"面向网络安全从业者的知识文库"
         },
       ]
     }
   ]
 }
+
 const el = (tag, attrs, content) => `<${tag} ${attrs.join(" ")}>${content}</${tag}>`;
 
 async function handleRequest(request) {
@@ -420,9 +203,8 @@ function renderHTML(index,seller) {
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
       <title>${config.title} - ${config.subtitle}</title>
-      <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/No-Github/Archive2@1.0.4/html/images/ffffffff0x-64.ico" type="image/x-icon">
       <link href="https://cdn.jsdelivr.net/gh/No-Github/Semantic-UI@2.4.4/dist/semantic.min.css" rel="stylesheet">
-      <link href="https://cdn.jsdelivr.net/gh/No-Github/cf-worker-dir@0.2.0/style.css" rel="stylesheet">
+      <link href="https://cdn.jsdelivr.net/gh/kitezzzzgrim/cf-worker-dir@0.2.0/style.css" rel="stylesheet">
       <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
       <script src="https://cdn.jsdelivr.net/gh/No-Github/Semantic-UI@2.4.4/dist/semantic.min.css"></script>
   </head>
