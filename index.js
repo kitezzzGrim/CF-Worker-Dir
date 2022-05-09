@@ -192,6 +192,11 @@
           name:"PeiQi文库",
           desc:"面向网络安全从业者的知识文库"
         },
+        {
+          url:"https://wiki.xazlsec.com/",
+          name:"xazlsec",
+          desc:"信安之路知识文库"
+        },
       ]
     }
   ]
