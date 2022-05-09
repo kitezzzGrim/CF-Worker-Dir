@@ -204,7 +204,7 @@ function renderHTML(index,seller) {
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
       <title>${config.title} - ${config.subtitle}</title>
       <link href="https://cdn.jsdelivr.net/gh/No-Github/Semantic-UI@2.4.4/dist/semantic.min.css" rel="stylesheet">
-      <link href="https://cdn.jsdelivr.net/gh/kitezzzzgrim/cf-worker-dir@0.2.0/style.css" rel="stylesheet">
+      <link href="https://cdn.jsdelivr.net/gh/kitezzzgrim/cf-worker-dir@0.2.0/style.css" rel="stylesheet">
       <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
       <script src="https://cdn.jsdelivr.net/gh/No-Github/Semantic-UI@2.4.4/dist/semantic.min.css"></script>
   </head>
